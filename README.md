@@ -48,3 +48,11 @@ Easily customize your experience by selecting different languages for your featu
      alt="CleanShot Image" 
      width="640" height="480">
 
+# Language Selection
+<br>
+
+Links to our Privacy Police and Terms of Service:<br>
+
+[Terms of Service](https://github.com/SplashFix/rechat-global/blob/main/Terms%20of%20Service.md)<br>
+[Privacy Police](https://github.com/SplashFix/rechat-global/blob/main/Privacy%20Policy.md)
+
