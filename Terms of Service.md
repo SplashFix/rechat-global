@@ -14,20 +14,20 @@ Welcome to reChat Global! These Terms of Service (“ToS”) govern your use of 
 <br>
 # 2. Eligibility
 
-To use reChat Global, you must:
-	•	Be at least 13 years old or meet the minimum age required by Discord’s Terms of Service.
-	•	Have permission from the server owner if you are adding the bot to a server.
+To use reChat Global, you must:<br>
+	•	Be at least 13 years old or meet the minimum age required by Discord’s Terms of Service.<br>
+	•	Have permission from the server owner if you are adding the bot to a server.<br>
 <br>
 <br>
 <br>
 <br>
 # 3. Acceptable Use
 
-When using reChat Global, you agree NOT to:
-	•	Use the bot for illegal, harmful, or abusive activities.
-	•	Exploit vulnerabilities, spam, or attempt to disrupt its functionality.
-	•	Misuse stored invite links or avatar caching in a way that violates Discord’s guidelines.
-	•	Attempt to reverse-engineer, modify, or resell the bot.
+When using reChat Global, you agree NOT to:<br>
+	•	Use the bot for illegal, harmful, or abusive activities.<br>
+	•	Exploit vulnerabilities, spam, or attempt to disrupt its functionality.<br>
+	•	Misuse stored invite links or avatar caching in a way that violates Discord’s guidelines.<br>
+	•	Attempt to reverse-engineer, modify, or resell the bot.<br>
 
 We reserve the right to restrict access to the bot if any abuse is detected.
 <br>
@@ -35,37 +35,36 @@ We reserve the right to restrict access to the bot if any abuse is detected.
 <br>
 <br>
 # 4. Data Collection & Privacy
-+
-	•	We temporarily store user avatars to improve performance.
-	•	We store invite links to diagnose errors on specific servers.
-	•	We do NOT store user IDs, private messages, or personal data.
-	•	For more details, please refer to our Privacy Policy.
+We temporarily store user avatars to improve performance.<br>
+We store invite links to diagnose errors on specific servers.<br>
+We do NOT store user IDs, private messages, or personal data.<br>
+For more details, please refer to our [Privacy Policy](https://github.com/SplashFix/rechat-global/blob/main/Privacy%20Policy.md).<br>
 <br>
 <br>
 <br>
 <br>
-# 5. Bot Availability & Changes
-ö
-	•	We do our best to keep the bot available 24/7, but we do not guarantee uptime.
-	•	Features may change, be removed, or be updated at any time.
-	•	We are not responsible for any data loss or server issues caused by bot downtime.
+# 5. Bot Availability & Changes 
+
+We do our best to keep the bot available 24/7, but we do not guarantee uptime.<br>
+Features may change, be removed, or be updated at any time.<br>
+We are not responsible for any data loss or server issues caused by bot downtime.<br>
 <br>
 <br>
 <br>
 <br>
-# 6. Liability Disclaimer
-ö
-	•	We are not responsible for any damages, bans, or issues resulting from the use of reChat Global.
-	•	You use the bot at your own risk and agree that we cannot be held liable for any disruptions.
+
+# 6. Liability Disclaimer 
+ We are not responsible for any damages, bans, or issues resulting from the use of reChat Global.<br>
+ You use the bot at your own risk and agree that we cannot be held liable for any disruptions.<br>
 <br>
 <br>
 <br>
 <br>
-# 7. Termination of Service
+# 7. Termination of Service 
 
 We reserve the right to:
-	•	Restrict or terminate access to the bot if you violate these terms.
-	•	Remove the bot from servers that engage in rule-breaking activities.
+	•	Restrict or terminate access to the bot if you violate these terms.<br>
+	•	Remove the bot from servers that engage in rule-breaking activities.<br>
 <br>
 <br>
 <br>
