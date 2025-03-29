@@ -35,7 +35,7 @@ We reserve the right to restrict access to the bot if any abuse is detected.
 <br>
 <br>
 # 4. Data Collection & Privacy
-
++
 	•	We temporarily store user avatars to improve performance.
 	•	We store invite links to diagnose errors on specific servers.
 	•	We do NOT store user IDs, private messages, or personal data.
@@ -45,7 +45,7 @@ We reserve the right to restrict access to the bot if any abuse is detected.
 <br>
 <br>
 # 5. Bot Availability & Changes
-
+ö
 	•	We do our best to keep the bot available 24/7, but we do not guarantee uptime.
 	•	Features may change, be removed, or be updated at any time.
 	•	We are not responsible for any data loss or server issues caused by bot downtime.
@@ -54,7 +54,7 @@ We reserve the right to restrict access to the bot if any abuse is detected.
 <br>
 <br>
 # 6. Liability Disclaimer
-
+ö
 	•	We are not responsible for any damages, bans, or issues resulting from the use of reChat Global.
 	•	You use the bot at your own risk and agree that we cannot be held liable for any disruptions.
 <br>
