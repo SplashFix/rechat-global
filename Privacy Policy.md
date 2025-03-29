@@ -26,11 +26,11 @@ To enhance performance and functionality, reChat Global collects and stores the 
 <br>
 # 3. How We Use Your Data
 
-The data we collect is used solely for the following purposes:
-
-✅ Optimizing bot performance and reducing API load.
-✅ Debugging and fixing technical issues.
-✅ Enhancing user experience through better functionality.
+The data we collect is used solely for the following purposes: 
+ 
+✅ Optimizing bot performance and reducing API load.<br>  
+✅ Debugging and fixing technical issues.<br>  
+✅ Enhancing user experience through better functionality.<br>
 <br>
 <br>
 <br>
