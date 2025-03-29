@@ -78,5 +78,5 @@ We may update these Terms of Service at any time. The latest version will always
 <br>
 # 9. Contact
 
-For questions, support, or concerns, contact us at:
-🌐 reChat Global Support Server
+For questions, support, or concerns, contact us at:<br>
+🌐 [reChat Global Support Server](https://discord.gg/At6jxmyUyS)
