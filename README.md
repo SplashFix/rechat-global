@@ -1,8 +1,13 @@
-# Welcome to reChat Global!
+<div align="center">
+    <img src="https://i.postimg.cc/W3FFxRkM/temp-Image6rb-Ro-L.avif" width=200 height=200>
+    <h1>Welcome to reChat Global!</h1>
+</div>
 <br>
 
 With reChat Global, you can break server boundaries and connect with users across multiple communities in real time. Whether you’re chatting with friends, meeting new people, or diving into exciting discussions, our global chat keeps the conversation flowing beyond just one server.
 <br>
+<br>
+
 <img src="https://www.dropbox.com/scl/fi/xwbpy5p8ovh0c1k61cv0j/V1.1.0.png?rlkey=zbjgjsawdhwowb7xzu4d3zbnw&st=oy09utg3&raw=1" 
      alt="reChat Banner" 
      width="640">
