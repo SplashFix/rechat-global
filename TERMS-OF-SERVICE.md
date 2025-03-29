@@ -26,7 +26,6 @@ To use reChat Global, you must:<br>
 When using reChat Global, you agree NOT to:<br>
 	•	Use the bot for illegal, harmful, or abusive activities.<br>
 	•	Exploit vulnerabilities, spam, or attempt to disrupt its functionality.<br>
-	•	Misuse stored invite links or avatar caching in a way that violates Discord’s guidelines.<br>
 	•	Attempt to reverse-engineer, modify, or resell the bot.<br>
 
 We reserve the right to restrict access to the bot if any abuse is detected.
