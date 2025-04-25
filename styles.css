@@ -19,6 +19,7 @@ body {
     font-family: 'Nunito', sans-serif;
     color: #4E4F3B;
     line-height: 1.6;
+    background-color: white; /* <-- Das stellt den Standard-Hintergrund sicher */
 }
 
 /* ================ */
