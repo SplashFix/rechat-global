@@ -411,6 +411,81 @@ h2 {
     }
 }
 
+
+/* ================ */
+/* BOT RECOGNITION  */
+/* ================ */
+.bot-recognition-section {
+    background: white;
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bot-recognition-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bot-recognition-subtitle {
+    font-size: 1.2rem;
+    color: #4E4F3B;
+    margin-bottom: 40px;
+}
+
+.vote-platforms {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.vote-platform {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.vote-platform:hover {
+    transform: translateY(-5px);
+}
+
+.vote-platform h3 {
+    color: #2a2b24;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.vote-platform p {
+    color: #4E4F3B;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.btn-vote {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #41ffba;
+    color: #2a2b24;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid #41ffba;
+    transition: all 0.3s ease;
+}
+
+.btn-vote:hover {
+    background: #2dffa8;
+    transform: scale(1.05);
+}
+
 /* ===================== */
 /* 8. RESPONSIVE DESIGN  */
 /* ===================== */
