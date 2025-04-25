@@ -413,69 +413,69 @@ h2 {
 
 
 /* ================ */
-/* BOT RECOGNITION  */
+/* BOT RECOGNITION (TEXT VERSION) */
 /* ================ */
 .bot-recognition-section {
     background: white;
     padding: 60px 20px;
     text-align: center;
-    max-width: 800px;  /* Schmaler als andere Sektionen */
+    max-width: 600px;  /* Noch schmaler für bessere Lesbarkeit */
     margin: 80px auto;
+    line-height: 1.6;
 }
 
 .bot-recognition-section h2 {
     font-family: 'Ubuntu', sans-serif;
     color: #2a2b24;
     font-size: 1.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-weight: 700;
 }
 
 .bot-recognition-subtitle {
     font-size: 1.1rem;
     color: #4E4F3B;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 400;
+    display: block;
 }
 
 .vote-platforms {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    max-width: 500px;
+    gap: 25px;
+    text-align: left;
+    max-width: 400px;
     margin: 0 auto;
 }
 
 .vote-platform {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #e0e0e0;
-    text-align: left;
+    background: transparent;
+    padding: 0;
+    border: none;
 }
 
 .vote-platform h3 {
     color: #2a2b24;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 .vote-platform p {
     color: #4E4F3B;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 0.95rem;
-    line-height: 1.5;
 }
 
 .btn-vote {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 16px;
+    gap: 6px;
+    padding: 6px 12px;
     background: #41ffba;
     color: #2a2b24;
-    border-radius: 5px;
+    border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
@@ -485,7 +485,6 @@ h2 {
 
 .btn-vote:hover {
     background: #2dffa8;
-    transform: translateY(-2px);
 }
 
 /* Responsive Anpassungen */
@@ -493,6 +492,7 @@ h2 {
     .bot-recognition-section {
         padding: 40px 15px;
         margin: 60px auto;
+        max-width: 90%;
     }
     
     .vote-platforms {
