@@ -415,11 +415,7 @@ h2 {
 /* ================ */
 /* BOT RECOGNITION (TEXT VERSION) */
 /* ================ */
-body {
-    background-color: #0e0e0e;
-    color: white;
-    font-family: 'Inter', sans-serif;
-  }
+
   
   .bot-recognition-section {
     text-align: center;
