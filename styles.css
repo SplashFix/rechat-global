@@ -412,64 +412,64 @@ h2 {
 }
 
 
-    /* ===================== */
-        /*  DESIGN: Vote Section  */
-        /* ===================== */
-        .vote-section {
+/* ===================== */
+/*  DESIGN: Vote Section  */
+/* ===================== */
+.vote-section {
             background: white;
             padding: 4rem 1rem;
             text-align: center;
         }
 
-        .vote-container {
+.vote-container {
             max-width: 1200px;
             margin: 0 auto;
         }
 
-        .vote-section h2 {
+.vote-section h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
             line-height: 1.2;
             color: #2d2d2d;
         }
 
-        .vote-subtitle {
+.vote-subtitle {
             color: #666;
             margin-bottom: 3rem;
             font-size: 1.2rem;
         }
 
-        .vote-grid {
+ .vote-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             padding: 0 2rem;
         }
 
-        .vote-item {
+ .vote-item {
             background: #f8f8f8;
             padding: 2rem;
             border-radius: 12px;
             transition: transform 0.3s ease;
         }
 
-        .vote-item:hover {
+ .vote-item:hover {
             transform: translateY(-5px);
         }
 
-        .vote-title {
+ .vote-title {
             font-size: 1.5rem;
             margin-bottom: 1rem;
             color: #2d2d2d;
         }
 
-        .vote-description {
+.vote-description {
             color: #666;
             margin-bottom: 1.5rem;
             min-height: 60px;
         }
 
-        .btn-vote {
+ .btn-vote {
             background: #4CAF50;
             color: white;
             padding: 0.8rem 2rem;
@@ -480,7 +480,7 @@ h2 {
             transition: background 0.3s ease;
         }
 
-        .btn-vote:hover {
+.btn-vote:hover {
             background: #45a049;
         }
 
