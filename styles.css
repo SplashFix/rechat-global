@@ -411,69 +411,6 @@ h2 {
     }
 }
 
-/* ================ */
-/* VOTE SEKTION     */
-/* ================ */
-
-.vote-container {
-    max-width: 700px;
-    margin: 0 auto;
-    background: white;
-  }
-  
-  .vote-card {
-    padding: 20px 0;
-  }
-  
-  .vote-card h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0 0 8px 0;
-    color: #1a1a1a;
-  }
-  
-  .vote-card p {
-    margin: 0 0 16px 0;
-    color: #666;
-    font-size: 1rem;
-  }
-  
-  .vote-card p strong {
-    color: #333;
-  }
-  
-  .checkbox-container {
-    display: flex;
-    gap: 16px;
-  }
-  
-  .checkbox-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-  }
-  
-  .checkbox-box {
-    width: 18px;
-    height: 18px;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .checkbox-item:hover .checkbox-box {
-    border-color: #bbb;
-  }
-  
-  .divider {
-    height: 1px;
-    background: #eee;
-    margin: 8px 0;
-  }
-
 /* ===================== */
 /* 8. RESPONSIVE DESIGN  */
 /* ===================== */
