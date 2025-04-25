@@ -415,105 +415,63 @@ h2 {
 /* VOTE SEKTION     */
 /* ================ */
 
-.vote-section {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    max-width: 600px;
+.vote-container {
+    max-width: 500px;
     margin: 0 auto;
-    padding: 30px;
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    background: #ffffff;
+    background: white;
   }
   
   .vote-card {
-    background: #f8f9fa;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 20px 0;
   }
   
-  .vote-card h3 {
+  .vote-card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
     margin: 0 0 8px 0;
-    font-size: 1.3rem;
-    color: #2c3e50;
+    color: #1a1a1a;
   }
   
   .vote-card p {
     margin: 0 0 16px 0;
-    color: #7f8c8d;
+    color: #666;
+    font-size: 1rem;
   }
   
-  .vote-options {
+  .vote-card p strong {
+    color: #333;
+  }
+  
+  .checkbox-container {
     display: flex;
     gap: 16px;
   }
   
-  .vote-checkbox {
+  .checkbox-item {
     display: flex;
     align-items: center;
+    gap: 8px;
     cursor: pointer;
-    position: relative;
-    user-select: none;
-    padding-left: 28px;
   }
   
-  .vote-checkbox input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  .checkmark {
-    position: absolute;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background-color: #eee;
+  .checkbox-box {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ddd;
     border-radius: 4px;
-    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .vote-checkbox:hover input ~ .checkmark {
-    background-color: #ddd;
+  .checkbox-item:hover .checkbox-box {
+    border-color: #bbb;
   }
   
-  .vote-checkbox input:checked ~ .checkmark {
-    background-color: #41ffba;
-  }
-  
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  .vote-checkbox input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  .vote-checkbox .checkmark:after {
-    left: 7px;
-    top: 3px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-  }
-  
-  .label-text {
-    color: #34495e;
-    font-weight: 500;
-  }
-  
-  hr {
-    border: none;
+  .divider {
     height: 1px;
-    background-color: #e0e0e0;
-    margin: 20px 0;
+    background: #eee;
+    margin: 8px 0;
   }
 
 /* ===================== */
