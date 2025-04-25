@@ -30,6 +30,17 @@ body {
     margin-top: auto;
 }
 
+/* Footer immer unten halten */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer.footer {
+    margin-top: auto;
+}
+
 /* ================ */
 /* 2. NAVIGATION    */
 /* ================ */
