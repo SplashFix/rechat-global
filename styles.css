@@ -444,6 +444,7 @@ h2 {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    row-gap: 40px; /* Abstand zwischen den Zeilen */
   }
   
   .vote-card {
@@ -453,6 +454,7 @@ h2 {
     width: 280px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
+    margin-bottom: 0; /* Sicherstellen, dass keine zusätzlichen Abstände vorhanden sind */
   }
   
   .vote-card:hover {
