@@ -289,6 +289,32 @@ h2 {
     width: auto;
 }
 
+/* ================ */
+/* CTA SEKTION     */
+/* ================ */
+
+.cta-section {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-section .btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+}
+
 
 /* ================ */
 /* TESTERS PAGE     */
