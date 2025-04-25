@@ -411,6 +411,76 @@ h2 {
     }
 }
 
+/* ================ */
+/* VOTE SEKTION     */
+/* ================ */
+
+.vote-section {
+    background: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.vote-section h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    color: #2a2b24;
+    margin-bottom: 10px;
+}
+
+.vote-section h2 span {
+    color: #41ffba;
+}
+
+.vote-section p {
+    color: #4E4F3B;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.vote-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.vote-card {
+    background: #f9f9f9;
+    border: 2px solid #e2e2e2;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.vote-card:hover {
+    transform: translateY(-5px);
+}
+
+.vote-card img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.vote-card h3 {
+    color: #2a2b24;
+    margin-bottom: 10px;
+}
+
+.vote-card p {
+    color: #4E4F3B;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.vote-card .btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
 /* ===================== */
 /* 8. RESPONSIVE DESIGN  */
 /* ===================== */
