@@ -415,71 +415,117 @@ h2 {
 /* ================ */
 /* BOT RECOGNITION (TEXT VERSION) */
 /* ================ */
-.bot-recognition-section {
-    background: white;
-    padding: 60px 20px;
+body {
+    background-color: #0e0e0e;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .bot-recognition-section {
     text-align: center;
-    max-width: 600px;
-    margin: 80px auto;
-    line-height: 1.6;
-}
-
-.bot-recognition-section h2 {
-    font-family: 'Ubuntu', sans-serif;
-    color: #2a2b24;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
+    padding: 60px 20px;
+  }
+  
+  .bot-recognition-section h2 {
+    font-size: 2.2rem;
     font-weight: 700;
-}
-
-.bot-recognition-subtitle {
-    font-size: 1.1rem;
-    color: #4E4F3B;
-    margin-bottom: 30px;
-    font-weight: 400;
-    display: block;
-}
-
-.vote-platforms {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    text-align: left;
-    max-width: 400px;
+    margin-bottom: 8px;
+  }
+  
+  .bot-recognition-section .highlight {
+    color: #41ffba;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 40px;
+  }
+  
+  .vote-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
     margin: 0 auto;
-}
-
-.vote-platform h3 {
-    color: #2a2b24;
-    margin-bottom: 5px;
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
-.vote-platform p {
-    color: #4E4F3B;
+  }
+  
+  .vote-card {
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.02), rgba(255,255,255,0));
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .vote-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255,255,255,0.05);
+  }
+  
+  .vote-icon {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .vote-card h3 {
+    font-size: 1.2rem;
     margin-bottom: 10px;
+  }
+  
+  .vote-card p {
     font-size: 0.95rem;
-}
-
-.btn-vote {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
-    background: #41ffba;
-    color: #2a2b24;
-    border-radius: 4px;
-    text-decoration: none;
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .vote-button {
+    padding: 10px 20px;
+    border-radius: 10px;
     font-weight: 600;
-    font-size: 0.9rem;
-    border: none;
-    transition: all 0.2s ease;
-}
-
-.btn-vote:hover {
-    background: #2dffa8;
-}
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    transition: background 0.2s ease;
+  }
+  
+  .vote-card.red {
+    border-color: #ff5e5e;
+    color: #ff5e5e;
+  }
+  .vote-card.red .vote-button {
+    color: #ff5e5e;
+    border-color: #ff5e5e;
+  }
+  .vote-card.red .vote-button:hover {
+    background: #ff5e5e20;
+  }
+  
+  .vote-card.blue {
+    border-color: #5e8bff;
+    color: #5e8bff;
+  }
+  .vote-card.blue .vote-button {
+    color: #5e8bff;
+    border-color: #5e8bff;
+  }
+  .vote-card.blue .vote-button:hover {
+    background: #5e8bff20;
+  }
+  
+  .vote-card.gray {
+    border-color: #ccc;
+    color: #ccc;
+  }
+  .vote-card.gray .vote-button {
+    color: #ccc;
+    border-color: #ccc;
+  }
+  .vote-card.gray .vote-button:hover {
+    background: #ffffff10;
+  }
 
 
 /* ===================== */
