@@ -419,7 +419,7 @@ h2 {
     background: white;
     padding: 60px 20px;
     text-align: center;
-    max-width: 600px;  /* Noch schmaler für bessere Lesbarkeit */
+    max-width: 600px;
     margin: 80px auto;
     line-height: 1.6;
 }
@@ -447,12 +447,6 @@ h2 {
     text-align: left;
     max-width: 400px;
     margin: 0 auto;
-}
-
-.vote-platform {
-    background: transparent;
-    padding: 0;
-    border: none;
 }
 
 .vote-platform h3 {
@@ -487,18 +481,6 @@ h2 {
     background: #2dffa8;
 }
 
-/* Responsive Anpassungen */
-@media (max-width: 768px) {
-    .bot-recognition-section {
-        padding: 40px 15px;
-        margin: 60px auto;
-        max-width: 90%;
-    }
-    
-    .vote-platforms {
-        max-width: 100%;
-    }
-}
 
 /* ===================== */
 /* 8. RESPONSIVE DESIGN  */
