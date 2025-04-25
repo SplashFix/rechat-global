@@ -415,105 +415,105 @@ h2 {
 /* VOTE SEKTION     */
 /* ================ */
 
-.vote-area {
-    background: #fff;
-    padding: 80px 20px;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  
-  .vote-area h2 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #1e1e1e;
-    margin-bottom: 10px;
-  }
-  
-  .vote-area h2 span {
-    color: #41ffba;
-  }
-  
-  .vote-area .subline {
-    font-size: 1.2rem;
-    color: #5a5a5a;
-    margin-bottom: 50px;
-  }
-  
-  .vote-container {
+.vote-section {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    row-gap: 40px; /* Abstand zwischen den Zeilen */
+    flex-direction: column;
+    gap: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #ffffff;
   }
   
   .vote-card {
-    background: #f7f7f7;
-    border-radius: 25px;
-    padding: 30px 25px;
-    width: 280px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
-    margin-bottom: 0; /* Sicherstellen, dass keine zusätzlichen Abstände vorhanden sind */
-  }
-  
-  .vote-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .vote-card img {
-    width: 60px;
-    height: auto;
-    margin-bottom: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   
   .vote-card h3 {
-    font-size: 1.4rem;
-    color: #1e1e1e;
-    margin-bottom: 10px;
+    margin: 0 0 8px 0;
+    font-size: 1.3rem;
+    color: #2c3e50;
   }
   
   .vote-card p {
-    color: #555;
-    font-size: 0.95rem;
-    margin-bottom: 20px;
+    margin: 0 0 16px 0;
+    color: #7f8c8d;
   }
   
-  .vote-btn {
-    display: inline-block;
-    padding: 10px 18px;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: #fff;
-    text-decoration: none;
-    transition: background 0.3s ease;
+  .vote-options {
+    display: flex;
+    gap: 16px;
   }
   
-  /* Individuelle Buttonfarben */
-  .btn-topgg {
-    background-color: #ff3366;
+  .vote-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    padding-left: 28px;
   }
   
-  .btn-topgg:hover {
-    background-color: #e02958;
+  .vote-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
   }
   
-  .btn-zik {
-    background-color: #5865f2;
+  .checkmark {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+    transition: all 0.2s;
   }
   
-  .btn-zik:hover {
-    background-color: #4752c4;
+  .vote-checkbox:hover input ~ .checkmark {
+    background-color: #ddd;
   }
   
-  .btn-dlist {
+  .vote-checkbox input:checked ~ .checkmark {
     background-color: #41ffba;
-    color: #1e1e1e;
   }
   
-  .btn-dlist:hover {
-    background-color: #32d89a;
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .vote-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .vote-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .label-text {
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
   }
 
 /* ===================== */
