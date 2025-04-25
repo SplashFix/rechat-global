@@ -415,71 +415,104 @@ h2 {
 /* VOTE SEKTION     */
 /* ================ */
 
-.vote-section {
-    background: white;
+.vote-area {
+    background: #fff;
     padding: 80px 20px;
     text-align: center;
-}
-
-.vote-section h2 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    color: #2a2b24;
+  }
+  
+  .vote-area h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1e1e1e;
     margin-bottom: 10px;
-}
-
-.vote-section h2 span {
+  }
+  
+  .vote-area h2 span {
     color: #41ffba;
-}
-
-.vote-section p {
-    color: #4E4F3B;
-    font-size: 1.1rem;
-    margin-bottom: 40px;
-}
-
-.vote-cards {
+  }
+  
+  .vote-area .subline {
+    font-size: 1.2rem;
+    color: #5a5a5a;
+    margin-bottom: 50px;
+  }
+  
+  .vote-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
-}
-
-.vote-card {
-    background: #f9f9f9;
-    border: 2px solid #e2e2e2;
-    border-radius: 20px;
-    padding: 30px;
-    width: 300px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease;
-}
-
-.vote-card:hover {
+  }
+  
+  .vote-card {
+    background: #f7f7f7;
+    border-radius: 25px;
+    padding: 30px 25px;
+    width: 280px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .vote-card:hover {
     transform: translateY(-5px);
-}
-
-.vote-card img {
-    height: 60px;
+  }
+  
+  .vote-card img {
+    width: 60px;
+    height: auto;
     margin-bottom: 20px;
-}
-
-.vote-card h3 {
-    color: #2a2b24;
+  }
+  
+  .vote-card h3 {
+    font-size: 1.4rem;
+    color: #1e1e1e;
     margin-bottom: 10px;
-}
-
-.vote-card p {
-    color: #4E4F3B;
+  }
+  
+  .vote-card p {
+    color: #555;
     font-size: 0.95rem;
     margin-bottom: 20px;
-}
-
-.vote-card .btn {
-    font-size: 0.95rem;
-    padding: 10px 20px;
+  }
+  
+  .vote-btn {
     display: inline-block;
-}
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  /* Individuelle Buttonfarben */
+  .btn-topgg {
+    background-color: #ff3366;
+  }
+  
+  .btn-topgg:hover {
+    background-color: #e02958;
+  }
+  
+  .btn-zik {
+    background-color: #5865f2;
+  }
+  
+  .btn-zik:hover {
+    background-color: #4752c4;
+  }
+  
+  .btn-dlist {
+    background-color: #41ffba;
+    color: #1e1e1e;
+  }
+  
+  .btn-dlist:hover {
+    background-color: #32d89a;
+  }
 
 /* ===================== */
 /* 8. RESPONSIVE DESIGN  */
